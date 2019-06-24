@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 def parse
-  emails.collect do {|i| i.split(" ", ",")}
+  emails.collect {|i| i.split(" ", ",")}
   end
 end
 
