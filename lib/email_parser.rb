@@ -12,7 +12,7 @@ def initialize(emails)
 end
 
 def parse
-  @emails.collect {|i| i.split(", ").join(" ").split(" ").uniq}
+  @emails..split(", ").join(" ").split(" ").uniq
   end
 end
 
