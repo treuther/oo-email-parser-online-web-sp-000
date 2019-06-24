@@ -12,6 +12,7 @@ end
 
 def parse
   emails.collect do {|i| i.split(" ", ",")}
+  end
 end
 
 end
